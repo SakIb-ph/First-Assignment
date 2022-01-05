@@ -101,3 +101,12 @@ body {
 }
 .text-size {
 }
+.programmer-image {
+  margin-top: 8%;
+  background-position-y: 50%;
+}
+.programmer-image img {
+  margin-left: 8%;
+  width: 35%;
+  border-radius: 5%;
+}
