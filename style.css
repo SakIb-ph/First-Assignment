@@ -1,0 +1,48 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  text-align: justify;
+}
+.parent-div {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 5%;
+}
+.focused-mission {
+  font-size: 51px;
+  font-weight: 900;
+  width: 65%;
+  border-left: 5px solid;
+  border-image: linear-gradient(
+    rgb(208, 38, 38),
+    rgb(48, 70, 233),
+    rgb(160, 46, 46)
+  );
+  border-image-slice: 1;
+}
+.mission-2022 {
+  color: tomato;
+}
+.person-image img {
+  width: 100%;
+  padding: 5%;
+  margin-left: 10%;
+}
+.explore-button {
+  width: 20%;
+  padding: 10px 40px;
+  background-image: linear-gradient(rgb(48, 70, 233), rgb(247, 136, 96));
+  text-decoration: none;
+  font-weight: 650;
+  padding: 10px 25px;
+  border-radius: 5%;
+  height: 10%;
+  color: white;
+}
+.explore-button:hover {
+  color: red;
+}
+
+}
