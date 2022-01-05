@@ -6,15 +6,15 @@ body {
 .parent-div {
   display: flex;
   justify-content: space-around;
-  width: 80%;
-  margin: auto;
+  width: 85%;
+  margin: 45;
   padding: 5%;
 }
 .focused-mission {
   font-size: 51px;
   font-weight: 900;
   width: 65%;
-  border-left: 5px solid;
+  border-left: 6px solid;
   border-image: linear-gradient(
     rgb(208, 38, 38),
     rgb(48, 70, 233),
@@ -23,7 +23,7 @@ body {
   border-image-slice: 1;
 }
 .mission-2022 {
-  color: tomato;
+  color: rgb(221, 92, 69);
 }
 .person-image img {
   width: 100%;
@@ -44,5 +44,60 @@ body {
 .explore-button:hover {
   color: red;
 }
+.goal-2022 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+.color-2022 {
+  color: rgb(30, 138, 210);
+}
+.color-mission {
+  color: rgb(8, 9, 43);
+}
+.three-illustrator {
+  display: flex;
+  width: 85%;
+  margin-left: 8%;
+}
+.illustrator1 {
+  background-image: linear-gradient(rgb(255, 217, 217), rgb(218, 255, 218));
+  padding: 2%;
+  margin-right: 2%;
+  border-radius: 7%;
+}
+.illustrator1 img {
+  width: 30%;
 
+  justify-content: space-between;
+  padding: 5%;
+}
+.illustrator2 {
+  background-image: linear-gradient(rgb(255, 212, 237), rgb(218, 255, 233));
+  padding: 2%;
+  margin-right: 2%;
+  border-radius: 7%;
+}
+.illustrator2 img {
+  width: 30%;
+
+  justify-content: space-between;
+  padding: 5%;
+}
+.illustrator3 {
+  background-image: linear-gradient(rgb(218, 255, 221), rgb(244, 253, 219));
+  padding: 2%;
+  margin-right: 2%;
+  border-radius: 7%;
+}
+.illustrator3 img {
+  width: 30%;
+
+  justify-content: space-between;
+  padding: 5%;
+}
+.text-mission {
+  width: 70%;
+}
+.text-size {
 }
