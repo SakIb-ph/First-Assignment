@@ -129,19 +129,28 @@ body {
   font-family: "Pushster", cursive;
   font-size: 30px;
   width: 20%;
-  margin-top: 4%;
   padding: 3%;
-  margin-left: 2%;
+  height: 0;
+  
 }
 .develop-font {
   width: 36%;
   margin-left: 4%;
+  background-image: linear-gradient(rgb(180, 183, 221), rgb(255, 224, 222));
+  border-image: linear-gradient(blue, red);
+  border-image-slice: 1;
+  border-left: 6px solid;
+  padding: 2%;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 4%;
+  margin-top: 7%;
+  
 }
 .dumentation-button {
   font-weight: 650;
   padding: 10px 10px;
   border-radius: 5%;
-  background-image: linear-gradient(rgb(248, 118, 118), rgb(206, 92, 84));
+  background-image: linear-gradient(rgb(157, 162, 235), rgb(238, 119, 111));
   margin-left: 4%;
 }
 .dumentation-button:hover {
@@ -166,7 +175,9 @@ body {
   width: 100%;
 }
 .read-button {
-  padding: 10px 15px;
+  font-weight: 750;
+  padding: 10px 10px;
+  border-radius: 5%;
   background-image: linear-gradient(rgb(157, 162, 235), rgb(238, 119, 111));
 }
 .read-button:hover {
@@ -174,6 +185,13 @@ body {
 }
 .ss {
   width: 70%;
+  box-shadow: 10px 10px 20px gray;
+  padding: 20px;
+  background-image: linear-gradient(rgb(180, 183, 221), rgb(255, 224, 222));
+  border-image: linear-gradient(blue, red);
+  border-image-slice: 1;
+  border-left: 6px solid;
+  border-radius: 4%;
 }
 .shape-image img {
   width: 15%;
@@ -189,16 +207,49 @@ body {
   font-size: 40px;
 }
 .app img {
-  width: 24%;
-  height: 20%;
+  width: 100%;
+  height: 85%;
   position: center;
   background-image: url(shape-1.png), url(shape-8.png), url(shape-6.png);
   background-repeat: no-repeat;
   background-size: 140px;
   line-height: 30px;
-
+  margin-left: 10%;
   background-position: left bottom, left top, top right;
 }
 .app-container {
   margin-left: 17%;
+}
+.last-file {
+  display: flex;
+  width: 80%;
+}
+.corona-update {
+  width: 100%;
+  margin-right: 100%;
+  padding-right: 20%;
+  margin-top: 40%;
+  font-size: 40px;
+  font-family: "Pushster", cursive;
+  
+}
+.last-span {
+  color: rgb(255, 0, 0);
+}
+.corona-update {
+  width: 55%;
+  height: 20%;
+}
+.corona {
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+.ending {
+  text-align: center;
+  background-color: rgb(2, 3, 10);
+  color: beige;
+  font-family: "Pushster", cursive;
+}.footer-font-color{
+  color: red;
+}
 }
