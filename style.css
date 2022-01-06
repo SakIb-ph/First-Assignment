@@ -226,15 +226,15 @@ body {
 
   height: 20%;
 }
-.corona-update {
+.resturant-info {
   width: 60%;
   font-size: 35px;
   font-family: "Pushster", cursive;
 }
-.last-span {
+.info {
   color: rgb(255, 0, 0);
 }
-.corona {
+.resturant {
   margin-left: 20%;
   margin-bottom: %;
 }
@@ -250,7 +250,7 @@ body {
 .enter-button {
   text-align: ;
 }
-.order {
+.support {
   margin-bottom: 10%;
   margin-left: 10%;
 
