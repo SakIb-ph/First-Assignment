@@ -70,7 +70,6 @@ body {
 }
 .illustrator1 img {
   width: 30%;
-
   justify-content: space-between;
   padding: 5%;
 }
@@ -82,7 +81,6 @@ body {
 }
 .illustrator2 img {
   width: 30%;
-
   justify-content: space-between;
   padding: 5%;
 }
@@ -94,7 +92,6 @@ body {
 }
 .illustrator3 img {
   width: 30%;
-
   justify-content: space-between;
   padding: 5%;
 }
@@ -201,7 +198,7 @@ body {
   margin-auto: 20%;
   margin-left: 12%;
 }
-.news-tittle {
+.Restaurant-tittle {
   text-align: center;
   font-size: 40px;
 }
@@ -217,24 +214,22 @@ body {
 }
 .app-container {
   width: 70%;
-
   height: 20%;
 }
 .last-file {
   display: flex;
   width: 90%;
-
   height: 20%;
 }
-.resturant-info {
+.Restaurant-info {
   width: 60%;
   font-size: 35px;
   font-family: "Pushster", cursive;
 }
-.info {
+.last-span {
   color: rgb(255, 0, 0);
 }
-.resturant {
+.last-setion {
   margin-left: 20%;
   margin-bottom: %;
 }
@@ -250,10 +245,11 @@ body {
 .enter-button {
   text-align: ;
 }
-.support {
+.order {
   margin-bottom: 10%;
   margin-left: 10%;
 
+  background-image: linear-gradient(rgb(193, 249, 255), rgb(192, 243, 255));
   background-image: linear-gradient(rgb(158, 248, 140), rgb(252, 137, 162));
   width: 20%;
   padding: 2%;
