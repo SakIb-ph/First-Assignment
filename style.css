@@ -99,7 +99,7 @@ body {
   padding: 5%;
 }
 .text-mission {
-  width: 70%;
+  width: 62%;
 }
 .text-size {
   font-family: "Pushster", cursive;
@@ -145,6 +145,7 @@ body {
   border-radius: 4%;
   margin-top: 7%;
   
+  
 }
 .dumentation-button {
   font-weight: 650;
@@ -179,6 +180,7 @@ body {
   padding: 10px 10px;
   border-radius: 5%;
   background-image: linear-gradient(rgb(157, 162, 235), rgb(238, 119, 111));
+  cursor: pointer;
 }
 .read-button:hover {
   color: cornsilk;
