@@ -186,14 +186,19 @@ body {
 }
 .news-tittle {
   text-align: center;
+  font-size: 40px;
 }
-.last1 img {
-  width: 11%;
-  margin-left: 15%;
+.app img {
+  width: 24%;
+  height: 20%;
+  position: center;
+  background-image: url(shape-1.png), url(shape-8.png), url(shape-6.png);
+  background-repeat: no-repeat;
+  background-size: 140px;
+  line-height: 30px;
 
-.app {
-  width: 0%;
-  height: 0%;
-  margin-left: 18%;
-  margin: auto;
+  background-position: left bottom, left top, top right;
+}
+.app-container {
+  margin-left: 17%;
 }
