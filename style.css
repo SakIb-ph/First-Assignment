@@ -131,7 +131,6 @@ body {
   width: 20%;
   padding: 3%;
   height: 0;
-  
 }
 .develop-font {
   width: 36%;
@@ -144,8 +143,6 @@ body {
   box-shadow: 10px 10px 20px gray;
   border-radius: 4%;
   margin-top: 7%;
-  
-  
 }
 .dumentation-button {
   font-weight: 650;
@@ -208,50 +205,72 @@ body {
   text-align: center;
   font-size: 40px;
 }
-.app img {
-  width: 100%;
-  height: 85%;
-  position: center;
+.resturant-image img {
+  margin-left: 20%;
+  padding: 2px;
+  padding: 4%;
   background-image: url(shape-1.png), url(shape-8.png), url(shape-6.png);
   background-repeat: no-repeat;
-  background-size: 140px;
-  line-height: 30px;
+  background-size: 97px;
   margin-left: 10%;
   background-position: left bottom, left top, top right;
 }
 .app-container {
-  margin-left: 17%;
+  width: 70%;
+
+  height: 20%;
 }
 .last-file {
   display: flex;
-  width: 80%;
+  width: 90%;
+
+  height: 20%;
 }
 .corona-update {
-  width: 100%;
-  margin-right: 100%;
-  padding-right: 20%;
-  margin-top: 40%;
-  font-size: 40px;
+  width: 60%;
+  font-size: 35px;
   font-family: "Pushster", cursive;
-  
 }
 .last-span {
   color: rgb(255, 0, 0);
 }
-.corona-update {
-  width: 55%;
-  height: 20%;
-}
 .corona {
   margin-left: 20%;
-  margin-bottom: 20%;
+  margin-bottom: %;
 }
 .ending {
   text-align: center;
   background-color: rgb(2, 3, 10);
   color: beige;
   font-family: "Pushster", cursive;
-}.footer-font-color{
+}
+.footer-font-color {
   color: red;
 }
+.enter-button {
+  text-align: ;
+}
+.order {
+  margin-bottom: 10%;
+  margin-left: 10%;
+
+  background-image: linear-gradient(rgb(193, 249, 255), rgb(192, 243, 255));
+  width: 20%;
+  padding: 2%;
+  text-align: left top;
+  border-radius: 3%;
+}
+.online-button {
+  width: 20%;
+  padding: 10px 40px;
+  background-image: linear-gradient(rgb(243, 125, 117), rgb(208, 128, 100));
+  text-decoration: none;
+  font-weight: 650;
+  padding: 10px 25px;
+  border-radius: 5%;
+  height: 10%;
+  color: white;
+}
+.online-button:hover {
+  color: blueviolet;
 }
